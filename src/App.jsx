@@ -1,58 +1,61 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
 
-function App() {
+export default function App() {
 
   return (
-    <>
 
-      Start slideshow
+    <div>
+      <h1>Hello</h1>
+      <Routes>
 
-      Starry Night
-      Vincent Van Gogh
+        Start slideshow
 
-      Girl with a Pearl Earring
-      Johannes Vermeer
+        Starry Night
+        Vincent Van Gogh
 
-      Guernica
-      Pablo Picasso
+        Girl with a Pearl Earring
+        Johannes Vermeer
 
-      Penitent Magdalene
-      Artemisia Gentileschi
+        Guernica
+        Pablo Picasso
 
-      The Storm on the Sea of Galilee
-      Rembrandt
+        Penitent Magdalene
+        Artemisia Gentileschi
 
-      The Great Wave off Kanagawa
-      Hokusai
+        The Storm on the Sea of Galilee
+        Rembrandt
 
-      Van Gogh Self-portrait
-      Vincent Van Gogh
+        The Great Wave off Kanagawa
+        Hokusai
 
-      The Sleeping Gypsy
-      Henri Rousseau
+        Van Gogh Self-portrait
+        Vincent Van Gogh
 
-      Lady with an Ermine
-      Leonardo da Vinci
+        The Sleeping Gypsy
+        Henri Rousseau
 
-      The Night Café
-      Vincent Van Gogh
+        Lady with an Ermine
+        Leonardo da Vinci
 
-      The Basket of Apples
-      Paul Cézanne
+        The Night Café
+        Vincent Van Gogh
 
-      The Boy in the Red Vest
-      Paul Cézanne
+        The Basket of Apples
+        Paul Cézanne
 
-      Arnolfini Portrait
-      Jan van Eyck
+        The Boy in the Red Vest
+        Paul Cézanne
 
-      Mona Lisa
-      Leonardo da Vinci
+        Arnolfini Portrait
+        Jan van Eyck
 
-      The Swing
-      Jean-Honoré Fragonard
-    </>
+        Mona Lisa
+        Leonardo da Vinci
+
+        The Swing
+        Jean-Honoré Fragonard
+      </Routes>
+    </div>
+
   )
 }
-
-export default App
