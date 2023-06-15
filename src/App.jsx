@@ -1,14 +1,22 @@
 import { Route, Routes } from 'react-router-dom'
+import "./app.css"
+import Logo from "./assets/shared/logo.svg"
 
 export default function App() {
 
   return (
 
-    <div>
-      <h1>Hello</h1>
+    <div className='container'>
+      <header>
+        <div className="header--top">
+          <img className='logo-header' src={Logo} alt="" />
+          <h2 className='start-slideshow'>Start slideshow</h2>
+        </div>
+      </header>
+      <hr className='header--hr' />
       <Routes>
 
-        Start slideshow
+
 
         Starry Night
         Vincent Van Gogh
