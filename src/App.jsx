@@ -1,23 +1,17 @@
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import "./app.css"
-import Logo from "./assets/shared/logo.svg"
+import "./style.css"
+
+import NotFound from '../Views/NotFound'
+import Home from '../Views/Home'
 
 export default function App() {
 
   return (
-
-    <div className='container'>
-      <header>
-        <div className="header--top">
-          <img className='logo-header' src={Logo} alt="" />
-          <h2 className='start-slideshow'>Start slideshow</h2>
-        </div>
-      </header>
-      <hr className='header--hr' />
+    <div>
       <Routes>
-
-
-
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
         Starry Night
         Vincent Van Gogh
 
@@ -63,7 +57,7 @@ export default function App() {
         The Swing
         Jean-Honoré Fragonard
       </Routes>
-    </div>
-
+    </div >
   )
 }
+
