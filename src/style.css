@@ -1,5 +1,6 @@
 .container {
   width: 375px;
+  height: 2989px;
 }
 
 .header--top {
@@ -34,6 +35,41 @@
   opacity: 0.1;
 }
 
+main {
+  padding: 24px;
+  display: grid;
+  gap: 24px;
+}
+
+.thumb-picture {
+  position: relative;
+  color: white;
+}
+
+.thumb-img {
+  filter: brightness(0.8);
+  width: 327px;
+}
+
+.thumb-title {
+  position: absolute;
+  width: auto;
+  left: 32px;
+  width: 246px;
+  bottom: 56px;
+  font-size: 24px;
+}
+
+.thumb-subtitle {
+  position: absolute;
+  width: auto;
+  left: 32px;
+  bottom: 33px;
+  font-size: 13px;
+  font-weight: normal;
+  opacity: 0.75;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 768px;
@@ -41,6 +77,94 @@
   .header--top {
     height: 88px;
     --offset: 40px;
+  }
+
+  main {
+    display: block;
+    padding: 40px;
+    position: relative;
+    height: auto;
+  }
+
+  .thumb-img {
+    width: 324px;
+  }
+
+  .masonry-item {
+    position: absolute;
+  }
+
+  #starry-night {
+    left: 39px;
+    top: 42px;
+  }
+
+  #girl-with-pearl-earring {
+    left: 404px;
+    top: 42px;
+  }
+
+  #guernica {
+    left: 39px;
+    top: 332px;
+  }
+
+  #penitent-magdalene {
+    left: 404px;
+    top: 482px;
+  }
+
+  #the-storm-on-the-sea-of-galilee {
+    left: 39px;
+    top: 657px;
+  }
+
+  #the-great-wave-off-kanagawa {
+    left: 404px;
+    top: 772px;
+  }
+
+  #van-gogh-self-portrait {
+    left: 39px;
+    top: 1037px;
+  }
+
+  #the-sleeping-gypsy {
+    left: 404px;
+    top: 1092px;
+  }
+
+  #the-night-cafe {
+    left: 404px;
+    top: 1382px;
+  }
+
+  #lady-with-an-ermine {
+    left: 39px;
+    top: 1577px;
+  }
+
+  #the-basket-of-apples {
+    left: 404px;
+    top: 1682px;
+  }
+
+  #the-boy-in-the-red-vest {
+    left: 39px;
+    top: 2037px;
+  }
+  #arnolfini-portrait {
+    left: 404px;
+    top: 2152px;
+  }
+
+  #mona-lisa {
+    left: 39px;
+    top: 2337px;
+  }
+  #the-swing {
+    left: 404px;
+    top: 2522px;
   }
 }
 
