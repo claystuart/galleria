@@ -1,6 +1,5 @@
 .container {
   width: 375px;
-  height: 2989px;
 }
 
 .header--top {
@@ -73,6 +72,7 @@ main {
 @media (min-width: 768px) {
   .container {
     width: 768px;
+    height: 2989px;
   }
   .header--top {
     height: 88px;
@@ -95,7 +95,7 @@ main {
   }
 
   #starry-night {
-    left: 39px;
+    left: 40px;
     top: 42px;
   }
 
@@ -105,7 +105,7 @@ main {
   }
 
   #guernica {
-    left: 39px;
+    left: 40px;
     top: 332px;
   }
 
@@ -115,7 +115,7 @@ main {
   }
 
   #the-storm-on-the-sea-of-galilee {
-    left: 39px;
+    left: 40px;
     top: 657px;
   }
 
@@ -125,7 +125,7 @@ main {
   }
 
   #van-gogh-self-portrait {
-    left: 39px;
+    left: 40px;
     top: 1037px;
   }
 
@@ -140,7 +140,7 @@ main {
   }
 
   #lady-with-an-ermine {
-    left: 39px;
+    left: 40px;
     top: 1577px;
   }
 
@@ -150,7 +150,7 @@ main {
   }
 
   #the-boy-in-the-red-vest {
-    left: 39px;
+    left: 40px;
     top: 2037px;
   }
   #arnolfini-portrait {
@@ -159,7 +159,7 @@ main {
   }
 
   #mona-lisa {
-    left: 39px;
+    left: 40px;
     top: 2337px;
   }
   #the-swing {
@@ -171,6 +171,7 @@ main {
 @media (min-width: 1440px) {
   .container {
     width: 1440px;
+    height: 1606px;
   }
   .header--top {
     height: 128px;
@@ -180,5 +181,82 @@ main {
   .header--hr {
     left: 40px;
     width: 1360px;
+  }
+
+  .thumb-img {
+    width: 310px;
+  }
+
+  #starry-night {
+    left: 40px;
+    top: 42px;
+  }
+
+  #girl-with-pearl-earring {
+    left: 404px;
+    top: 42px;
+  }
+
+  #guernica {
+    left: 760px;
+    top: 42px;
+  }
+
+  #penitent-magdalene {
+    left: 1110px;
+    top: 42px;
+  }
+
+  #the-storm-on-the-sea-of-galilee {
+    left: 40px;
+    top: 332px;
+  }
+
+  #the-great-wave-off-kanagawa {
+    left: 404px;
+    top: 482px;
+  }
+
+  #van-gogh-self-portrait {
+    left: 760px;
+    top: 375px;
+  }
+
+  #the-sleeping-gypsy {
+    left: 1110px;
+    top: 332px;
+  }
+
+  #the-night-cafe {
+    left: 404px;
+    top: 802px;
+  }
+
+  #lady-with-an-ermine {
+    left: 40px;
+    top: 712px;
+  }
+
+  #the-basket-of-apples {
+    left: 1110px;
+    top: 622px;
+  }
+
+  #the-boy-in-the-red-vest {
+    left: 40px;
+    top: 1172px;
+  }
+  #arnolfini-portrait {
+    left: 404px;
+    top: 1106px;
+  }
+
+  #mona-lisa {
+    left: 760px;
+    top: 919px;
+  }
+  #the-swing {
+    left: 1110px;
+    top: 1094px;
   }
 }
