@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "../src/assets/shared/logo.svg"
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
@@ -63,19 +64,17 @@ export default function Home() {
 }
 
 function PictureCard({ artist, path, title }) {
-    const idArtist = () => console.log(`Painted by ${artist}`)
-    let altMsg = `Painting titled '${title}'`
-
     return (
-        <figure onClick={idArtist} id={path} className='masonry-item'>
-            <picture className='thumb-picture' >
-                <img className='thumb-img'
-                    src={`../src/assets/${path}/thumbnail.jpg`}
-                    alt={altMsg} />
-                <figcaption className='thumb-title'>{title}</figcaption>
-                <figcaption className='thumb-subtitle'>{artist}</figcaption>
-            </picture>
-        </figure >
-
+        <Link to={`/${path}`}>
+            <figure id={path} className='masonry-item'>
+                <picture className='thumb-picture' >
+                    <img className='thumb-img'
+                        src={`../src/assets/${path}/thumbnail.jpg`}
+                        alt={`Painting titled '${title}'`} />
+                    <figcaption className='thumb-title'>{title}</figcaption>
+                    <figcaption className='thumb-subtitle'>{artist}</figcaption>
+                </picture>
+            </figure >
+        </Link>
     )
 }
